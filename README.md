@@ -16,7 +16,7 @@ This project focuses on developing a machine learning model to automatically cla
 To increase the size and variability of the dataset, data augmentation techniques such as flipping, shifting, shearing, and zooming were applied to the training images.
 
 ## Key Files
-- **`traintestresnet50.py`**: Contains the training pipeline for ResNet50 and outputs the results in CSV format.
+- **`TrainAndaTestResnet50.py`**: Contains the training pipeline for ResNet50 and outputs the results in CSV format.
 - **`DataPreprocessing.py`**: Handles all preprocessing tasks, including empty image removal, outlier detection, and scaling.
 - **`unet_vgg16.py`**: Implements the U-Net model used for segmentation experiments.
 
@@ -30,7 +30,7 @@ Despite preprocessing and data augmentation improving the accuracy, extraneous e
 
 ## Brief on How to Run the Codes in the Repository
 
-### 1. Running `traintestresnet50.py`
+### 1. Running `TrainAndaTestResnet50.py`
 The script `traintestresnet50.py` is used to train and test a ResNet50 model on image data. It involves loading training and testing datasets, preprocessing them, and training the model with ResNet50 as the backbone. After training, predictions on test data are saved as a CSV file.
 
 #### Steps to Run:
